@@ -63,33 +63,42 @@ Y= A⊕B
 
 
 **PROGRAM**
-
-![Screenshot 2024-12-03 050927](https://github.com/user-attachments/assets/16d11085-db6a-4d2b-8c53-9fe77b66d640)
-
+```
+module experiment1(a,b,f1,f2,f3,f4,f5,f6,f7);
+input a,b;
+output f1,f2,f3,f4,f5,f6,f7;
+assign f1=a&b;
+assign f2=a|b;
+assign f3=~a;
+assign f4=~f1;
+assign f5=~f2;
+assign f6=a^b;
+assign f7=~(a^b);
+endmodule
+```
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber:24900652 
  
 **Logic symbol & Truthtable**
-
-![Screenshot 2024-12-03 052602](https://github.com/user-attachments/assets/d17ee3ee-1d53-425c-97dd-25c4fbbb0051)
+![Screenshot 2024-12-10 133741](https://github.com/user-attachments/assets/e52bbfbf-9318-4eea-8878-fb4b075d4b7a)
 
 
 
 **RTL realization Output:** 
-
-![Screenshot 2024-12-03 050942](https://github.com/user-attachments/assets/13bd93c1-eac5-417b-8cd9-7a8f65d8cd14)
-
+![Screenshot 2024-12-10 133754](https://github.com/user-attachments/assets/c3bf2720-0a83-4fd8-a2d9-1fb4aa70f5fd)
 
 
-**RTL**
 
-![Screenshot 2024-12-03 050846](https://github.com/user-attachments/assets/12df8592-1c40-4c84-a687-dbeef836d705)
+**Time wave form:**
+![Screenshot 2024-12-10 133813](https://github.com/user-attachments/assets/05709934-3776-42f5-b2a6-fc731b65214a)
+
+
 
 
 
 **Result:**
-Studied and verified our truth table and logic gates in quartus || using verlang programing succesfully
+    The basic logic gates are studied and the truth tables are verified.
 
 
